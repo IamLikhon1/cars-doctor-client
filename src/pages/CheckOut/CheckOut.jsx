@@ -36,7 +36,7 @@ const CheckOut = () => {
         .then(data=>{
             console.log(data);
             
-            if(data.insertedId>0){
+            if(data.insertedId){
                 alert('service book successfully!!')
             }
         })
