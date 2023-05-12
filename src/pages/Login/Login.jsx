@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 const Login = () => {
-  const{user}=useContext(AuthContext);
+  // const{user}=useContext(AuthContext);
     const{signIn}=useContext(AuthContext);
 
     const location=useLocation();
